@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Task from './Task'
-
+import PropTypes from 'prop-types'
 class Tasks extends Component {
     constructor(props) {
         super(props)
@@ -14,6 +14,9 @@ class Tasks extends Component {
             ))
         )
     }
+}
+Tasks.propTypes = {
+    tasks: PropTypes.array.isRequired
 }
 
 export default Tasks

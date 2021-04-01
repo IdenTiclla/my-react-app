@@ -4,7 +4,7 @@ import './App.css';
 import tasks from './sample/tasks.json'
 
 import Tasks from './components/Tasks'
-
+import TaskForm from './components/TaskForm'
 console.log(tasks)
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                <TaskForm></TaskForm>
                 <Tasks tasks={this.state.tasks}></Tasks>
             </div>
         )

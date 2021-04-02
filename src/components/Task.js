@@ -16,7 +16,7 @@ class Task extends Component {
         return (
             
             <div style={this.StyleCompleted()}>
-                    {task.title} - {task.description}
+                    {task.title} - {task.description} - {task.id}
                     <input type="checkbox"></input>
                     <button style={btnDelete}>x</button>
             </div>

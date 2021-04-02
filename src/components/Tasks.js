@@ -10,7 +10,12 @@ class Tasks extends Component {
         
         return (
             this.props.tasks.map(task => (
-                <Task task={task} key={task.id}></Task>
+                <Task 
+                    task={task}
+                    key={task.id}
+                    deleteTask={this.props.deleteTask}
+                    checkDone={this.props.checkDone}>
+                </Task>
             ))
         )
     }

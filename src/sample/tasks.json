@@ -15,12 +15,12 @@
         "id": 3,
         "title": "Tarea 3",
         "description": "lorem ipsum",
-        "done": true
+        "done": false
     },
     {
         "id": 4,
         "title": "Tarea 4",
         "description": "lorem ipsum",
-        "done": true
+        "done": false
     }
 ]
